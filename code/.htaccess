@@ -1,0 +1,4 @@
+DirectoryIndex index.php
+
+RewriteEngine On    # Turn on the rewriting engine
+RewriteRule    ^home/?$    home.php    [NC,L]

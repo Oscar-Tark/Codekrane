@@ -1,0 +1,14 @@
+body
+{
+    overflow: hidden;
+    margin: 0px;
+    padding: 0px;
+}
+
+.mainiframe
+{
+    overflow: hidden;
+    border: 0px solid white;
+	width: 100%;
+	height: 100%;
+}

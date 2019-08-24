@@ -1,0 +1,1273 @@
+#calendar_element
+{
+	width: 100%;
+}
+
+#calendar
+{
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.contact_button
+{
+	float: right;
+}
+
+.contact_input
+{
+	width: 100%;
+}
+
+.contact_form
+{
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#top_ban
+{
+	margin-top: 0px;
+	background-color: rgb(32,32,32);
+	color: rgb(247, 147, 30);
+	width: 100%;
+	height: 45px;
+}
+
+#sign_select
+{
+	height: 30px;
+}
+
+#contract_frame
+{
+	width: 0%;
+	height: 0px;
+	border: 0px solid white;
+}
+
+#inconstruction_text
+{
+	font-family: "Courgette", cursive;
+	font-size: 16px;
+}
+
+#ac_menu_title, #ac_content_title, #ac_summary_title
+{
+	background-color: rgb(234,191,0);
+}
+
+#sign_select
+{
+	width: 100%;
+}
+
+#action_banner
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+	background-color: rgb(220,220,220);
+	border: 1px solid rgb(220,220,220);
+	border-radius: 3px;
+}
+
+#forgot_password
+{
+	float: left;
+}
+
+#ac_content
+{
+	height: 100%;
+	float: left;
+	width: 100%;
+	/*border: 1px solid rgb(234,191,0);*/
+	border-radius: 3px;
+}
+
+#ac_menu, #ac_summary
+{
+	height: 400px;
+	float: right;
+	width: 20%;
+	/*border: 1px solid rgb(234,191,0);*/
+	border-radius: 3px;
+}
+
+.ob_upl_div
+{
+	height: 300px;
+	width: 100%;
+}
+
+.ob_title_txt
+{
+	font-size: 24px;
+    font-family: 'Mukta Mahee', sans-serif;
+}
+
+.ob_upl_btn
+{
+	
+}
+
+.ob_info_txt
+{
+	font-size: 14px;
+	width:100%;
+
+}
+
+#onboardingcontnt
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: 532px;
+}
+
+#testimonials
+{
+	
+}
+
+#lang
+{
+	float:right;
+}
+
+selectsel #clean_type option[value="Home cleaning"]   { background-image:url("../Assets/Images/icons/gen/001-brush.png");   }
+
+#login_form, #signup_form
+{
+	width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#book_button_div
+{
+	height: 30px;
+	width: 269px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#media_icon
+{
+	width: 16px;
+	height:16px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.step_title_text
+{
+	font-size: 24px;
+}
+
+#contact
+{
+}
+
+#contact_input, #contact_button
+{
+	width: auto;
+}
+
+#center_load
+{
+	width: 150px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#center_load_img
+{
+	width: 150px;
+}
+
+#contact_button
+{
+	color:black;
+	background-color: rgb(234, 191, 0);
+	width: auto;
+	height: 30px;
+	margin-left: auto;
+	margin-left: auto;
+	float: right;
+}
+
+#join_div
+{
+	text-align: auto;
+}
+
+#join_text
+{
+	text-align: center;
+	font-size: 16px;
+	font-family: "Courgette", cursive;
+}
+
+.make_header
+{
+	margin-top: 8%;
+	border-radius: _ne3px;
+}
+
+#make_header_black
+{
+	color: black;
+	background-color: white;
+	border-radius: _ne3px;
+}
+
+.cookies
+{
+	width: 100%;
+	height: 21px;
+	color: white;
+	position: fixed;
+	bottom: 0;
+	text-align: center;
+	border: 2px solid rgb(247, 147, 30);
+	background-color: black;
+}
+
+#booking_id_
+{
+	font-family: "Mukta Mahee", regular;
+}
+
+/*#download_button, #signup_join, #decline_cookies, #accept_cookies, #book_close, #book_contact,#book_next_button, #login_button_, #google_get, #button_close_agb, #book_button, #book_back_button, #join_next_button, #join_back_button
+{
+	color:black;
+	background-color:rgb(234, 191, 0);
+	width: auto;
+	height: 30px;
+	margin-left: auto;
+	margin-left: auto;
+	float: right;
+}*/
+
+.static_content
+{
+	width: 100%;
+	overflow: hidden;
+}
+
+.label_highlighted
+{
+	color: red;
+	
+}
+
+.console_clickable
+{
+	color: rgb(247, 147, 30);
+}
+
+.console_clickable:hover
+{
+	text-decoration: underline;
+	cursor: grab;
+}
+
+.console_inputter
+{
+	border-top: 1px solid rgb(64,64,64);
+	position: relative;
+	caret-color: magenta;
+}
+
+.console_input:hover
+{
+	background-color: green;
+	color: white;
+	caret-color: white;
+}
+
+.console_inputter, .console_input
+{
+	width: 100%;
+	background-color: black;
+	font-family: monospace;
+	font-size: 14px;
+}
+
+.console
+{
+	background-color: black;
+	color: white;
+	font-family: 'monospace';
+	font-size: 14px;
+	width: 100%;
+	overflow: hidden;
+}
+
+#sign_up_button
+{
+	color:black;
+	background-color: rgb(234, 191, 0);
+	width: 100%;
+	height: 30px;
+	margin-left: auto;
+	margin-left: auto;
+	float: right;
+}
+
+#book_next_button:disabled, #join_next_button:disabled
+{
+	color: rgb(130,130,130);
+	background-color:rgb(180,180,180);
+	border: 1px solid rgb(180,180,180);
+}
+
+#services_detailed_submenu
+{
+	margin-left:auto;
+	margin-right:auto;
+	width: 525px;
+	text-align: center;
+}
+
+#book_confirm
+{
+	text-align: center;
+	font-family: "Courgette";
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#home_gallery, #home_gallery2
+{
+	margin-top: 10%;
+	width: 800px;
+	height: 260px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.howitworks
+{
+	height: 450px;
+	overflow: hidden;
+}
+
+#home_gallery2
+{
+	margin-top: 2%;
+}
+
+.banner_label
+{
+	font-size: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	color: black;
+	width: 80%;
+}
+
+#price_underlabel
+{
+	color: rgb(247, 147, 30);
+	font-family: "Mukta Mahee", regular;
+}
+
+#section_title
+{}
+
+.banner
+{
+	background-color: auto;
+	text-align: center;
+	/*width: 33%;*/
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#copyright
+{
+	margin-top: 5%;
+	width: 100%;
+	text-align: center;
+	font-size: 12px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#div_home_buttons_gallery
+{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#book_button_home
+{
+	width: auto;
+}
+
+#home_gallery_element1, #home_gallery_element2, #home_gallery_element3, #home_gallery_element4
+{
+	margin-top: 2%;
+	width: 25%;
+	height: 80%;
+	
+}
+
+#ob_agb_div, #agb_frame
+{
+	width: 100%;
+	height: 600px;
+	border: 0px solid white;
+}
+
+#book_gallery_element, #login_gallery_element
+{
+	margin-right: auto;
+	margin-left: auto;
+	width: 130px;
+}
+
+#wrong_email, #wrong_sqm_lbl, #field_alert
+{
+	color: red;
+	font-size: 12px;
+	font-family: 'Mukta Mahee', sans-serif;
+}
+
+#book_gallery_element_text, #in_construction_gallery_text, #login_gallery_element_text
+{
+	font-family: "Courgette", cursive;
+	font-size: 28px;
+	text-align: center;
+}
+
+#home_gallery_element1
+{
+}
+
+#home_gallery_element2
+{
+	margin-left: 24%;
+}
+
+#home_gallery_element3
+{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#home_gallery_element4
+{
+	
+}
+
+#home_gallery_element1_image, #home_gallery_element2_image, #home_gallery_element3_image, #home_gallery_element4_image
+{
+	height: 91%;
+}
+
+#home_gallery_element1_text, #home_gallery_element2_text, #home_gallery_element3_text, #home_gallery_element4_text
+{
+	text-align: center;
+	color: black;
+}
+
+.title_text
+{
+	font-family: "Courgette", cursive;
+	font-size: 16px;
+	color: rgb(254, 211, 0);
+	text-decoration: underline;
+	margin-top: 20%;
+}
+
+#book_gallery_element_image
+{
+	height: 76%;
+}
+
+#login_gallery_element_image
+{
+
+}
+
+#info_standfor
+{
+	font-family: "Courgette", cursive;
+	font-size: 16px;
+}
+
+.description_text
+{
+	font-family: "Courgette", cursive;
+	color: black;
+	font-size: 16px;
+	margin-top: 10px;
+}
+
+:required
+{
+	
+}
+
+#bank_dets
+{
+	visibility: visible;
+	height: auto;
+	font-size: 14px;
+	margin-bottom: 20px;
+	margin-left: 19px;
+}
+
+#services_detailed_kitchen_text
+{
+	font-size: 16px;
+	margin-left: 2%;
+	width: auto;
+	float: left;
+}
+
+#description_kitchen, #description_bathrooms, #description_bedrooms, #description_allroom, #description_living, #description_floors, #description_extras, #description_onhol, #description_abnb
+{
+	height: 280px;
+	/*border: 1px solid black;*/
+	border-radius: 3px;
+	width: 650px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#services_header_black
+{
+	font-size: 32px;
+}
+
+#price_label_black
+{
+	font-size: 32px;
+	margin-left: 10px;
+	font-family: "Mukta Mahee", regular;
+}
+
+#description_kitchen_img
+{ 
+	/*width: 200px;*/
+	height:200px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#shop_comm
+{
+	font-family: 'Mukta Mahee', sans-serif;
+	font-size: 16px;
+	width: 100%;
+	border: 1px solid rgb(234, 191, 0);
+	border-radius: 3px;
+	font-size: 16px;
+}
+
+#description_kitchen_img_src
+{
+	height:100%;
+	border-radius: 10px;
+	float:left;
+}
+
+#services_detailed_title
+{
+	margin-left: 20px;
+	margin-right: auto;
+	width: auto;
+	text-align: center;
+	font-family: 'Mukta Mahee', sans-serif;
+	font-size: 26px;
+}
+
+.centered_element
+{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.gen_div_center
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: 300px;
+	height: 200px;
+}
+
+.gen_img_center
+{
+	height: 100%;
+}
+
+.logo_by
+{
+	color: black;
+	font-size: 12px;
+}
+
+#login_button
+{
+	height: 30px;
+	width: auto;
+	margin-left: 2px;
+}
+
+#logout_button
+{
+	background-color: rgb(234, 191, 0);
+	border: 1px solid black;
+	height: 30px;
+	width: auto;
+	margin-left: 2px;
+}
+
+.services_title
+{
+    font-size: 32px;
+    color: black;
+    margin-top: 10%;
+}
+
+#info_standfor_text
+{
+	text-align: center;
+}
+
+#services_home8, #services_home, #services_home2, #services_home3, #services_home4, #services_home5, #services_home6, #services_home7
+{
+	height: 100px;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: white;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+#services_home8:hover, #services_home:hover, #services_home2:hover, #services_home3:hover, #services_home4:hover, #services_home5:hover, #services_home6:hover, #services_home7:hover
+{
+    border: 1px solid rgb(234,191,0);
+}
+
+#service_image
+{
+	max-height: 70%;
+    max-width: 70%;
+    margin-top: 7%;
+    margin-left: 9%;
+}
+
+#steps
+{
+	height: 220px;
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#services_detailed_view_button
+{
+	background-color: rgb(234, 191, 0);
+	height: 30px;
+	width: auto;
+}
+
+.service_description
+{
+	visibility: hidden;
+	width: 100%;
+	height: 150px;
+}
+
+#service_description8, #service_description1, #service_description2, #service_description3, #service_description4, #service_description5, #service_description6, #service_description7
+{
+	visibility: hidden;
+	width: auto;
+	height: auto;
+	margin-top: 4%;
+}
+
+#clean_type_price
+{
+	font-size: 12px;
+	color: grey;
+}
+
+#about_us
+{
+	font-family: 'Courgette', cursive;
+	font-size: 16px;
+}
+
+#seemore_button
+{
+	background-color: black;
+    color: white;
+    width: 20%;
+    height: 100%;
+    border: 0px;
+    font-size: 24px;
+	border-radius: 0px;
+	float: right;
+}
+
+#services_home_txt
+{
+	float:left;
+	width: auto;
+	max-width: 50%;
+	max-height: 100%;
+	height: 100%;
+}
+
+#services_step_txt
+{
+	float:left;
+	margin-top:5%;
+	width: 70%;
+}
+
+#services_home_img
+{
+	float: left;
+	width: 150px;
+	height:100%;
+}
+
+#home_steps_img
+{
+	float: left;
+	width: 30%;
+	height:100%;
+}
+
+.services_box
+{
+	height: 100px;
+}
+
+#book_gallery, #about_gallery, #login_gallery
+{
+	margin-top:13%;
+	margin-left: auto;
+	margin-right: auto;
+	height:200px;
+}
+
+#book_button
+{
+	width: 130px;
+	height: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	color: black;
+}
+
+#tasks_kit, #tasks_bat, #tasks_liv, #tasks_flo, #tasks_ext, #tasks_bed, #tasks_all
+{
+	width: 92%;
+	margin-left: 8%;
+}
+
+.onboarding_info
+{
+	margin-right: auto;
+	margin-left: auto;
+	width: 30%;
+}
+
+#book_gen_info, #onboarding_info, #book_pay, #book_tasks, #book_loc_info, #book_cle_info, #join_gen_info, #join_work_info, #join_legal_info, #join_lang_info, #contact_gen_info, #contact_message, #book_shp_gen, #book_shp_kit, #book_shp_bat
+{
+	/*float: left;*/
+	margin-right: auto;
+	margin-left: auto;
+	width: 30%;
+}
+
+.intro_div
+{
+	box-shadow: 10px 10px rgb(32,32,32);
+	text-align: left;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	border: 2px solid orange;
+    padding: 30px;
+}
+
+.intro_img
+{
+	float: left;
+	width: 20%;
+}
+
+.chat_label_div
+{
+	width: 100%;
+	text-align: center;
+	background-color: rgb(234, 191, 0);
+	color: black;
+}
+
+.cleanery_chat
+{
+	visibility: hidden;
+	position: fixed;
+	bottom: 80px;
+	border-radius: 0px;
+	right: 10px;
+	height: 0px;
+	background-color: white;
+	width: 0px;
+	border: 1px solid rgb(234, 191, 0);
+	transition: .3s width;
+	transition: .3s height;
+	transition: .1s opacity;
+}
+
+.ac_side_panel_button_chat
+{
+	position: fixed;
+	bottom: 20px;
+	background-color: white;
+	border: 0px;
+	border-bottom: 2px solid rgb(247, 147, 30);
+	right: 10px;
+	height: 49px;
+	width: 150px;
+	transition: .1s width;
+	transition: .1s border-radius;
+	transition: .1s border;
+}
+
+.ac_side_panel_button_chat:hover
+{
+	position: fixed;
+	bottom: 20px;
+	border-radius: 3px;
+	right: 10px;
+	height: 49px;
+	box-shadow: 2px 2px gray;
+	border: 0px;
+	border-bottom: 2px solid rgb(247, 147, 30);
+}
+
+.ac_side_panel_img
+{
+	float: left;
+	width: 30px;
+}
+
+.nav
+{
+	float: right;
+	height: 30px;
+	background-color: black;
+	color:  magenta;
+	border-bottom: 2px solid magenta;
+}
+
+.vis_box_sub
+{
+	margin-top: 5px;
+}
+
+.vis_box
+{
+	overflow: hidden;
+	float: left;
+	margin-bottom: 60px;
+	width: 100%;
+	height: 270px;
+	box-shadow: 10px 10px rgb(32,32,32);
+	background-color: white;
+	border: 2px solid rgb(247, 147, 30);
+	border-style: dotted;
+	transition: .1s height;
+	z-index: 0;
+}
+
+.vis_box:hover
+{
+	height: 620px;
+	z-index: 2;
+}
+
+.vis_box_img
+{
+	z-index: 2;
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+.logo_img
+{
+	margin-top: 4px;
+	height: 70%;
+	margin-left: 18px;
+}
+
+.portfolio_div
+{
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.main_logo_title
+{
+	border: 2px solid rgb(247, 147, 30);
+	padding: 10px;
+	font-family: 'Courgette';
+	color: rgb(247, 147, 30);
+	font-size: 18px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 90px;
+}
+
+.logo_title, #top_ban_logo
+{
+	border: 2px solid rgb(247, 147, 30);
+	padding: 10px;
+	position: fixed;
+	font-family: 'Courgette';
+	color: rgb(247, 147, 30);
+	font-size: 18px;
+	float: left;
+	left: 20;
+	height: 90px;
+}
+
+.top_ban_title
+{
+	width: 200px;
+	margin-left: 8px;
+	float: left;
+	border-bottom: 2px solid rgb(247, 147, 30);
+	height: 100%;
+}
+
+.logo_title_def
+{
+	font-family: 'Courgette', cursive;
+	color: white;
+	font-size: 28px;
+}
+
+#top_ban_central
+{
+	margin-top: 0px;
+}
+
+.top_ban_button
+{
+	float: right;
+	border: 0px;
+	border-bottom: 2px solid rgb(247, 147, 30);
+	background-color: rgb(32,32,32);
+	height: 100%;
+	color: white;
+	font-family: 'Mukta Mahee', sans-serif;
+	font-size: 14px;
+}
+
+#top_ban_info
+{
+	margin-top: 7px;
+	margin-right: 60px;
+	float: right;
+	font-size: 18px;
+    font-family: 'Mukta Mahee', sans-serif;
+}
+
+#top_ban_logo
+{
+	margin-left: 60px;
+}
+
+.accept_cookies
+{
+	float: right;
+	border: 1px solid black;
+	background-color: rgb(247, 147, 30);
+	color: black;
+	height: 17px;
+	font-family: 'monospace';
+}
+
+#menu, #menu_agb, #menu_account
+{
+	font-size: 18px;
+    font-family: 'Mukta Mahee', sans-serif;
+    position: fixed;
+    right: 12.6667px;
+    padding: 30px;
+    text-align: center;
+    background-color: white;
+    border: 2px solid rgb(247, 147, 30);
+    height: 90px;
+}
+
+#book_div
+{
+	width: 100%;
+	margin-top: 5%;
+	background-color: white;
+	color: black;
+}
+
+#book_title
+{
+	margin-top: 2%;
+	font-size: 28px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80px;
+}
+
+#frequency_days
+{
+	margin-top: 10px;
+}
+
+#clean_type, #clean_freq, #book_lang, #lang_select, #sign_select
+{
+	width: 100%;
+	border: 1px solid rgb(234, 191, 0);
+	border-radius: 3px;
+	font-size: 16px;
+}
+
+#clean_type:hover, #clean_freq:hover
+{
+	/*border-bottom: 1px solid black;*/
+}
+
+.underlined_textbox
+{
+	/*margin-bottom: 5px;*/
+    font-family: 'Mukta Mahee', sans-serif;
+	font-size: 16px;
+	border: 0;
+	border-bottom: 1px solid rgb(234, 191, 0);
+	border-radius: 0px;
+	color: grey;
+}
+
+.vis_box_label, .label_mid
+{
+	margin-left: 5px;
+	margin-top:5px;
+	background-color: black;
+	color: magenta;
+	padding: 3px;
+}
+
+#key_pick_address
+{
+	visibility: hidden;
+	height: 0px;
+}
+
+.underlined_textbox:hover
+{
+    font-family: 'Mukta Mahee', sans-serif;
+	font-size: 16px;
+	border: 0;
+	border-bottom: 1px solid rgb(234, 191, 0);
+	border-radius: 0px;
+	color: grey;
+}
+
+#summary_type
+{
+	text-align: center;
+}
+
+#right_floater, #right_floater_ky, #right_floater_tot
+{
+	float:right;
+	margin-right: 5px;
+}
+
+.tabbed_button_row
+{
+	width: 278px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.tabbed_content
+{
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	color: white;
+}
+
+.underlined_textinput
+{
+    font-family: 'Mukta Mahee', sans-serif;
+	font-size: 16px;
+	border: 0;
+	border-bottom: 1px solid rgb(234, 191, 0);
+	border-radius: 0px;
+	color: grey;
+}
+
+.underlined_textbox:hover
+{
+    font-family: 'Mukta Mahee', sans-serif;
+	font-size: 16px;
+	border: 0;
+	border: 0px solid black;
+	border-bottom: 1px solid rgb(234, 191, 0);
+	border-radius: 0px;
+	color: grey;
+}
+
+#sign_pwd, #sign_rep_pwd, #ob_street, #ob_number, #ob_plz, #ob_ort, #ob_country, #ob_fn, #ob_pw, #ob_un, #ob_pwr, #ob_ln, #ob_dob, #ob_ptn, #ob_tn,#ob_tn2,#ob_tn3, #book_timeh, #login_pwd, #login_username, #book_numc, #book_name, #book_email, #book_street, #book_plz, #book_number, #book_floor, #book_bell, #clean_type, #clean_freq, #book_date, #book_time, #join_name, #join_email, #join_years, #book_lang, #contact_name, #contact_email, #book_size
+{
+	/*margin-bottom: 5px;*/
+    font-family: 'Mukta Mahee', sans-serif;
+	font-size: 16px;
+	border: 0;
+	border-bottom: 1px solid rgb(234, 191, 0);
+	border-radius: 0px;
+	color: grey;
+}
+
+#book_comm, #contact_message_txt, #agb_textarea
+{
+    font-family: 'Mukta Mahee', sans-serif;
+	font-size: 16px;
+	width: 100%;
+	border: 1px solid rgb(234, 191, 0);
+	border-radius: 3px;
+	font-size: 16px;
+}
+
+#book_comm:hover, #contact_message_txt:hover, #agb_textarea:hover
+{
+	border: 1px solid black;
+}
+
+a:link {
+	text-decoration: underline;
+    color: rgb(247, 147, 30);
+	transition: .1s color;
+     }
+  
+  a:active {
+    text-decoration: underline; }
+  
+  a:visited {
+		color: rgb(247, 147, 30);
+	text-decoration: underline;
+     }
+  
+  a:hover {
+		color: white;
+	text-decoration: underline; }
+
+
+	input, textarea
+	{
+		transition: .1s background-color;
+		border: 0px;
+		border-bottom: 2px solid rgb(247, 147, 30);
+		background-color: rgb(32,32,32);
+		color: white;
+		font-family: 'Mukta Mahee', sans-serif;
+	}
+
+	input { 
+		height: 50px; }
+  
+	button
+	{
+	  color:black;
+	  background-color: rgb(247, 147, 30);
+	  width: auto;
+	  height: 30px;
+	  border: 2px solid  rgb(247, 147, 30);
+	  border-radius: 0px;
+	  font-size: 16px;
+	  transition: border .1s linear;
+	}
+  
+	button:hover
+	{
+	  color: black;
+	  background-color: magenta;
+	  border: 2px solid  magenta;
+	}
+  
+	button:active
+	{
+		transition: all 0.8s;
+	  /*background-color: rgb(204, 161, 0);*/
+	}
+  
+	input:hover , textarea:hover
+	{
+		background-color: rgb(247, 147, 30);
+		color:black;
+		/*box-shadow: 2px 2px gray;*/
+	}
+  
+	input:active, textarea:active
+	{
+		transition: all 0.8s;
+	  /*background-color: rgb(204, 161, 0);*/
+	}
+  
+	input:after, textarea::after
+	{
+		transition: all 0.8s;
+	  background-color: rgb(204, 161, 0);
+	}
+  
+	input:disabled, textarea:disabled
+	{
+		background-color: rgb(120,120,120);
+	}
+
+	::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+		color: greenyellow;
+	  }
+	  ::-moz-placeholder { /* Firefox 19+ */
+		color: greenyellow;
+	  }
+	  :-ms-input-placeholder { /* IE 10+ */
+		color: greenyellow;
+	  }
+	  :-moz-placeholder { /* Firefox 18- */
+		color: greenyellow;
+	  }
+
+  hr
+  {
+	border: 1px solid rgb(254, 211, 0);
+	}
+	
+	img
+	{
+		transition: .1s src;
+	}
+
+  #info_txt
+  {
+  	font-family: "Courgette", cursive;
+  	font-size: 20px;
+  }
