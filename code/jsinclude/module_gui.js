@@ -8,6 +8,29 @@ var tabs = {
 }
 var tabbed_buttons = 0;
 
+function draw_choose_box(destination, title, text, event)
+{
+    set_addition_inner_HTML(destination, "<div class='choose_box' id='choose_box'><label class='label_highlighted'>"+title+"</label><br><br><label class='label_mid'>></label><a href='javascript: "+event+"' class='label_mid'>"+text+"</label></a></div>");
+    return;
+}
+
+function notification(text)
+{
+    set_innerHTML("notification_banner_text", text);
+    set_visible("notification_banner");
+    return;
+}
+
+function check_email()
+{
+    if(!validateEmail(get_item("email")))
+    {
+        notification("The email address supplied is not a valid email address. Please check that you have inputted a correct email address.");
+        return false;
+    }
+    return false;
+}
+
 function evalTab(level)
 {
     set_innerHTML('tabbed_content', tabs[level]);

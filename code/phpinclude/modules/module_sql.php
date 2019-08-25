@@ -69,18 +69,19 @@ function sql_query_($quer)
 {
 	//Takes: string
 
+    $link = sql_get_connect();
     //NEVER SET ROOT AS THE MAIN USER! REMEMBER TO SET PERMISSIONS ACCORDINGLY
-    $hostname = '';
+    /*$hostname = '';
     $username = '';
     $password = '';
     $dbname = '';
     $link = new mysqli($hostname, $username, $password, $dbname)
-        or die("MYSQL: Unable to connect to the specific host.\n[END]\n".mysql_error());
+        or die("MYSQL: Unable to connect to the specific host.\n[END]\n".mysql_error());*/
     $link->set_charset('utf8_swedish_ci');
     if ($link->connect_errno)
     {
       echo "Failed to connect to DB: " . $link->connect_errno;
-    } //else { print 'connected'; }
+    }
     $result = $link->query($quer) or die("".$link->error.'Query error');
     $link->close();
     return $result;

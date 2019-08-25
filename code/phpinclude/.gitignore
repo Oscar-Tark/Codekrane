@@ -40,4 +40,4 @@ Thumbs.db
 # Other #
 ######################
 
-connect.php
+module_sql_connect.php

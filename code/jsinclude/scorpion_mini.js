@@ -1,5 +1,5 @@
 var html = {
-    contact: '<br><form class="contact_form" action="./getter.php" method="get"><label>Your name:</label><br><input name="name" class="contact_input" type="text"/><br><br><label>Your email address:</label><br><input name="email" type="text" class="contact_input"/><br><br><label>Your message:</label><br><textarea name="message" rows="5" class="contact_input"></textarea><br><br><button class="contact_button" type="SUBMIT">Send</button></form>',
+    contact: '<br><form class="contact_form" action="./email.php" method="POST"><label>I was too lazy to create an email validation system for javascript. In order for your email to go through you will have to:<br><br>><label class="label_mid">Make sure the name field only has characters</label><br>><label class="label_mid">Make sure the email field contains an email address</label><br><br><label class="label_highlighted">Efforts to xss or SQLinject will be evaded.</label></label><br><br><label>Your name:</label><br><input name="name" class="contact_input" type="text" required/><br><br><label>Your email address:</label><br><input name="email" type="text" class="contact_input" required/><br><br><label>Your message:</label><br><textarea name="message" rows="5" class="contact_input" required></textarea><br><br><button id="email" class="contact_button" type="SUBMIT"/>Send</button></form>',
 
     header: function(text, command)
     {
@@ -7,7 +7,12 @@ var html = {
         loader_on();
     },
 
-    init: '<br><label><img src="../Assets/Images/icons/gen/032-algorithm.png" height="50px"><br><br>Codekrane v.1.1<br>Welcome\nto the scorpion emulation console [ Full version <a target="_blank" href="https://github.com/Oscar-Tark/CSharp-Live">HERE</a> ]<br><br>Commands are not the standard ones in Scorpion. This is an fake emulation copy with no functionality of the original whatsoever. You know you are in control of the world now. In javascript ofcourse.<br><br>[WARNING!] Any changes made are stored in a simple memory structure with no encryption or are dead ends<br><br>[<label class="label_mid">LINKEDIN:</label> <a target="blank_" href="https://www.linkedin.com/in/oscartk/">https://www.linkedin.com/in/oscartk/</a> ]<br><br>Commands<br><br>><label class="label_highlighted"> Portfolio</label> - <label class="label_mid">fnc.run(\'Portfolio\')</label> too lazy to type? <label class= "console_clickable" onclick="scorpion(\'fnc.run(1)\')">click here</label><br><!--<label class="label_highlighted"> My skills</label> - <label class="label_mid">fnc.run(\'skills\')</label> too lazy to type? <label class= "console_clickable" onclick="scorpion(\'fnc.run(3)\')">click here</label><br>-->><label class="label_highlighted"> Contact me</label> - <label class="label_mid">fnc.run(\'Contact\')</label> too lazy to type? <label class= "console_clickable" onclick="scorpion(\'fnc.run(2)\')">click here</label><br>><label class="label_highlighted"> Reboot commandline</label> - <label class="label_mid">fnc.reboot()</label> too lazy to type? <label class= "console_clickable" onclick="scorpion(\'fnc.run(-1)\')">click here</label></label><script>loader_on();</script>'
+    init: '<br><label><img src="../Assets/Images/icons/gen/032-algorithm.png" height="50px"><br><br>Codekrane v.1.1<br>Welcome\nto the scorpion emulation console [ Full version <a target="_blank" href="https://github.com/Oscar-Tark/CSharp-Live">HERE</a> ]<br><br>Commands are not the standard ones in Scorpion. This is an fake emulation copy with no functionality of the original whatsoever. You know you are in control of the world now. In javascript ofcourse.<br><br>[<label class="label_highlighted"> !WARNING! </label>] Any changes made are stored in a simple memory structure with no encryption or are dead ends<br>[<label class="label_mid">LINKEDIN:</label> <a target="blank_" href="https://www.linkedin.com/in/oscartk/">https://www.linkedin.com/in/oscartk/</a> ]<br><div></div><script>loader_on();</script>',
+
+    options: '<br><div id="centered_div" class="centered_div"></div>',
+
+    blog: '<br><div id="blog_div" class="centered_div"><hr><label>My blog:</label><br><br><label>In construction</label><br><br></div>'
+
 }
 
 var functions = {
@@ -18,7 +23,12 @@ var functions = {
         {
             executables.console_write_html_repl(html.init);
             executables.console_write_text("Waiting for input by user");
-            executables.console_write_html("<label id='loader'></label>");
+            executables.console_write_html("<label id='loader'></label><br>");
+            executables.console_write_html(html.options);
+            executables.console_write_html(html.blog);
+            draw_choose_box("centered_div", "Option 1", "View my portfolio", 'scorpion(\"fnc.run(1)\");');
+            draw_choose_box("centered_div", "Option 2", "Contact me", 'scorpion(\"fnc.run(2)\");');
+            draw_choose_box("centered_div", "Option 3", "Reboot commandline", 'scorpion(\"fnc.run(-1)\");');
             loader_on();
         }
         else if(command == "fnc.reboot()" || command == "fnc.run(-1)")

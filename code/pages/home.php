@@ -21,6 +21,7 @@ draw_html_inside("../htmlinclude/logo.html", "mainframe");
 draw_html_inside("../htmlinclude/console_inputter.html", "mainframe");
 draw_html_inside("../htmlinclude/console.html", "mainframe");
 draw_html_inside("../htmlinclude/cookies.html", "mainframe");
+draw_html_inside("../htmlinclude/notification_banner.html", "mainframe");
 ?>
 
 <script>

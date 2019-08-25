@@ -3,6 +3,26 @@
 	width: 100%;
 }
 
+#choose_box
+{
+	margin-right: 14px;
+	float: left;
+	height: 78px;
+	margin-bottom: 14px;
+	margin-top: 0px;
+}
+
+.message, .choose_box
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: 300px;
+	border: 1px dashed rgb(247, 147, 30);
+	margin-top: 200px;
+	padding: 10px;
+	box-shadow: 10px 10px rgb(32,32,32);
+}
+
 #calendar
 {
 	width: 90%;
@@ -916,7 +936,7 @@ selectsel #clean_type option[value="Home cleaning"]   { background-image:url("..
 	margin-left: 18px;
 }
 
-.portfolio_div
+.portfolio_div, .centered_div
 {
 	width: 80%;
 	margin-left: auto;
