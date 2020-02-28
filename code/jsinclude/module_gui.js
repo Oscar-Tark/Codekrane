@@ -15,14 +15,16 @@ var menus =
 	
 	'2' : '<div><label class="label_mid">> Portfolio</label><br><br><a href="javascript: scorpion(\'fnc.run(1)\');">Portfolio</a><br><br><label class="label_mid">> Links</label><br><br><a href="https://www.linkedin.com/in/oscartk/" target="_new">Linkedin</a><br><a href="https://github.com/Oscar-Tark" target="_new">Github</a><br><a href="https://bitbucket.org/%7B2a290b41-1933-4604-8eba-a92f90e6fbda%7D/" target="_new">Atlassian bitbucket</a></div>',
 	
-	'3' : '<div><label class="label_mid">> Contact</label><br><br><a href="javascript: scorpion(\'fnc.run(2)\');">Email form</a><br><br><label class="label_mid">> Addresses</label><br><br><a href="mailto: oscar@codekrane.com">oscar@codekrane.com</a></div>'
+	'3' : '<div><label class="label_mid">> Contact</label><br><br><a href="javascript: scorpion(\'fnc.run(2)\');">Email form</a><br><br><label class="label_mid">> Addresses</label><br><br><a href="mailto: oscar@codekrane.com">oscar@codekrane.com</a></div>',
+	
+	'4' : '<div><label class="label_mid">> C sample programs for cybersecurity (Linux)</label><br><br><a href="javascript: ">simple HTTP server</a><br><a href="javascript: ">Get environment variable</a><br><a href="javascript: ">Set environment variable</a><br><a href="javascript: ">Buffer overflowable program 64bit</a><br><a href="javascript: ">Buffer overflowable program with execle()</a><br><a href="javascript: ">Format string exploitable program 32bit</a><br><br><label class="label_mid">> PHP</label><br><br><a href="mailto: oscar@codekrane.com">oscar@codekrane.com</a><br><br><label class="label_mid">> C#</label><br><br><a href="mailto: oscar@codekrane.com">oscar@codekrane.com</a></div>',
 }
 
 var tabbed_buttons = 0;
 
 function show_menu(men)
 {
-	set_height("top_ban", "350px");
+	set_height("top_ban", "auto");
 	set_innerHTML('menu_choose', menus[men]);
 	return;
 }

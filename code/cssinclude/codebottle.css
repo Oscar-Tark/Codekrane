@@ -15,6 +15,7 @@
 
 .menu_choose
 {
+	z-index: 2;
 	padding-top: 60px;
 	padding-left: 20px;
 	padding-right: 20px;
@@ -904,6 +905,7 @@ selectsel #clean_type option[value="Home cleaning"]   { background-image:url("..
 
 .nav
 {
+	border-right: 5px;
 	float: right;
 	height: 30px;
 	background-color: black;
@@ -1047,10 +1049,10 @@ selectsel #clean_type option[value="Home cleaning"]   { background-image:url("..
 
 .menu
 {
-	position: fixed;
 	right: 5px;
 	height: 45px;
-	border-bottom: 2px solid orange;
+	width: 380px;
+	float: right;
 }
 
 #menu_agb, #menu_account
