@@ -10,6 +10,14 @@
 	height: 78px;
 	margin-bottom: 14px;
 	margin-top: 0px;
+	margin-top: 0px;
+}
+
+.menu_choose
+{
+	padding-top: 60px;
+	padding-left: 20px;
+	padding-right: 20px;
 }
 
 .message, .choose_box
@@ -274,8 +282,15 @@ selectsel #clean_type option[value="Home cleaning"]   { background-image:url("..
 
 .static_content
 {
+	border-left: 2px solid black;
 	width: 100%;
 	overflow: hidden;
+	transition: .1s all;
+}
+
+.static_content:hover
+{
+	border-left: 2px solid orange;
 }
 
 .label_highlighted
@@ -968,13 +983,18 @@ selectsel #clean_type option[value="Home cleaning"]   { background-image:url("..
 	height: 90px;
 }
 
+.top_ban
+{
+	transition: .1s all;
+}
+
 .top_ban_title
 {
 	width: 200px;
 	margin-left: 8px;
 	float: left;
 	border-bottom: 2px solid rgb(247, 147, 30);
-	height: 100%;
+	height: 45px;
 }
 
 .logo_title_def
@@ -1025,7 +1045,15 @@ selectsel #clean_type option[value="Home cleaning"]   { background-image:url("..
 	font-family: 'monospace';
 }
 
-#menu, #menu_agb, #menu_account
+.menu
+{
+	position: fixed;
+	right: 5px;
+	height: 45px;
+	border-bottom: 2px solid orange;
+}
+
+#menu_agb, #menu_account
 {
 	font-size: 18px;
     font-family: 'Mukta Mahee', sans-serif;

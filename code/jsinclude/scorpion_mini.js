@@ -11,8 +11,7 @@ var html = {
 
     options: '<br><div id="centered_div" class="centered_div"></div>',
 
-    blog: '<br><div id="blog_div" class="centered_div"><hr><label>My blog:</label><br><br><label>In construction</label><br><br></div>'
-
+    blog: '<br><div id="blog_div" class="centered_div"><hr><label class="label_mid">Welcome:</label><label> Welcome to codekrane. The website where I just post exterior links of what I do. <br><br><label class="label_mid">Things I hate:</label><label> I hate Javascript and all of the frameworks that come with it (React, Vue, Garry, Barry, Larryframework, x,y,z). There is nothing solid about a service provider switching frameworks every 6 months and introducing new exploitable bugs. Frameworks built by people who just monkey see monkey do their names to success. Rather than contributing to the Javascript project. Making JS more stable and introducing all the things they would like to have in JS. I believe that the way the internet is served needs to be overhauled. Not in terms of lower layer protocols (AF_INET) but rather the application layer HTTP protocol, GET, POST etc. It\'s just a clusterf*ck it\'s not clean or well thought out, just a stack of technologies one over the other with then frameworks stacking themselves over other frameworks of frameworks of the framework frameworks. As you can see I did not put much work into this website and am not going to hire a "ReAcTion eNgINeER" from Le bandwagon to help me out. Am I salty? maybe. Salt is not a bad thing. Maybe I\'m just old school but for me computers have been a passion since the day I tore open my TI 86 calculator. A passion in life will fullfill you like nothing else will. Its getting harder to find people in the industry that have actually joined for the passion rather than cash.<br><br><label class="label_mid">Things I love:</label> C, Cybersecurity, Assembly (x86 CISC & ARM RISC), C#, Linux, Linus Torvalds, Richard Stallman(sometimes), ERP systems, Tuna from a can, sh*tty open source drivers.</label><br><br><label class="label_mid">What I can help you with:</label>If you are a company looking for someone who will get the job done. Someone with IT skills and maybe managerial skills. I am your guy. I am the guy. You may check out my <a href="">portfolio</a> go to my <a href="">Linkedin</a> or my <a href="">Github</a> for a glimpse at my early days of programming and my progress now. Some projects are very old and are from when I started programming and may contain loads of If\'s and repetitive code.<label></div>'
 }
 
 var functions = {
@@ -26,9 +25,10 @@ var functions = {
             executables.console_write_html("<label id='loader'></label><br>");
             executables.console_write_html(html.options);
             executables.console_write_html(html.blog);
-            draw_choose_box("centered_div", "Option 1", "View my portfolio", 'scorpion(\"fnc.run(1)\");');
-            draw_choose_box("centered_div", "Option 2", "Contact me", 'scorpion(\"fnc.run(2)\");');
-            draw_choose_box("centered_div", "Option 3", "Reboot commandline", 'scorpion(\"fnc.run(-1)\");');
+            send_ajax_in(null, 'menu');
+            //draw_choose_box("menu", "Option 1", "View my portfolio", 'scorpion(\"fnc.run(1)\");');
+            //draw_choose_box("menu", "Option 2", "Contact me", 'scorpion(\"fnc.run(2)\");');
+            //draw_choose_box("menu", "Option 3", "Reboot commandline", 'scorpion(\"fnc.run(-1)\");');
             loader_on();
         }
         else if(command == "fnc.reboot()" || command == "fnc.run(-1)")
@@ -96,7 +96,7 @@ var executables = {
 
     console_write_text : function(text)
     {
-        set_addition_inner_HTML("console", "<br><label>"+text+"</label>");
+        set_addition_inner_HTML("console", "<br><div class='static_content'><label>"+text+"</label></div>");
     },
 
     console_write_text_repl : function(text)

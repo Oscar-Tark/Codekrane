@@ -9,7 +9,7 @@ function includes($concatenation_level)
     }
 
     $phppaths = array("phpinclude/modules/*.php", "phpinclude/gui_modules/*.php" );
-    $jspaths = array("jsinclude/*.js");
+    $jspaths = array("jsinclude/*.js", "jsinclude/core/*.js");
     $csspaths = array("cssinclude/*.css", "cssinclude/iframe/*.css");
     $htmlpaths = array("htmlinclude/*.html");
     foreach ($phppaths as $path)

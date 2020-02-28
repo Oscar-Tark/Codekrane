@@ -15,7 +15,7 @@ function draw_html_to_body($file)
 
 function draw_html_inside($file, $control)
 {
-	$html = file_get_contents($file);
+	$html = read_file_text($file);
 	echo("<script>document.getElementById('".$control."').innerHTML += '".$html."';</script>");
 	return;
 }

@@ -1,17 +1,13 @@
 <?php
+
 function read_file_text($file_name)
 {
-    return file_get_contents($file_name);
+    return replace_char("\n", "", file_get_contents($file_name));
 }
 
 function replace_char($toreplace, $replacewith, $content)
 {
 	return str_replace($toreplace, $replacewith, $content);
-}
-
-function generate_pdf()
-{
-	return;
 }
 
 function create_folder($path)

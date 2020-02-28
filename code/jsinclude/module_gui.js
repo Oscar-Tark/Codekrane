@@ -1,3 +1,5 @@
+//I hate web programming. This garbage code.
+
 var gui_snip = {
     'tabbed_interface' : '<div id="tabbed_interface" class="tabbed_interface"><div id="tabbed_button_row" class="tabbed_button_row"></div><div class="tabbed_content" id="tabbed_content"></div></div>'
 }
@@ -6,7 +8,31 @@ var gui_snip = {
 var tabs = {
     0 : '<div><label>Business solutions are always different. Our no bullshit approach helps u</label></div>'
 }
+
+var menus = 
+{
+	'1' : '<div><label class="label_mid">> Cybersecurity (Linux)</label><br><br><a href="https://www.codeproject.com/Articles/5165534/Basic-x86-64bit-Buffer-Overflows-in-Linux" target="_new">Basic x86-64bit Buffer Overflows in Linux</a><br><br><label class="label_mid">> Youtube</label><br><br><a href="https://www.youtube.com/watch?v=rodmoOuFYcc" target="_new">Installing Virtualbox & Ubuntu on windows 10</a></div>',
+	
+	'2' : '<div><label class="label_mid">> Portfolio</label><br><br><a href="javascript: scorpion(\'fnc.run(1)\');">Portfolio</a><br><br><label class="label_mid">> Links</label><br><br><a href="https://www.linkedin.com/in/oscartk/" target="_new">Linkedin</a><br><a href="https://github.com/Oscar-Tark" target="_new">Github</a><br><a href="https://bitbucket.org/%7B2a290b41-1933-4604-8eba-a92f90e6fbda%7D/" target="_new">Atlassian bitbucket</a></div>',
+	
+	'3' : '<div><label class="label_mid">> Contact</label><br><br><a href="javascript: scorpion(\'fnc.run(2)\');">Email form</a><br><br><label class="label_mid">> Addresses</label><br><br><a href="mailto: oscar@codekrane.com">oscar@codekrane.com</a></div>'
+}
+
 var tabbed_buttons = 0;
+
+function show_menu(men)
+{
+	set_height("top_ban", "350px");
+	set_innerHTML('menu_choose', menus[men]);
+	return;
+}
+
+function hide_menu()
+{
+	set_height("top_ban", "45px");
+	clear_innerHTML("menu_choose");
+	return;
+}
 
 function draw_choose_box(destination, title, text, event)
 {

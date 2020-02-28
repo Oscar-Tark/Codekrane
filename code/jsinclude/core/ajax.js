@@ -1,60 +1,34 @@
-function send_AJAX(request_type, url, render_to)
+/*function send_ajax_in(token, request)
 {
-    //file_to_send_request_to: what file to call?
-    //url: built url from urlbuildeval().
-    //function_to_call: what function to call?
-    //response_action: what is the action of the response? Edit innerHTML? clear? create? redirect?
-    //response_element: what is the response element to modify contents of?
-
-    var xmlhttp = new XMLHttpRequest();
-    xmlhttp.onreadystatechange = function()
-    {
-        if(this.readyState === 4 && this.status === 200)
+        var data = this.get_data(token);
+        var xmlhttp = new XMLHttpRequest();
+        xmlhttp.onreadystatechange = function()
         {
-            //itm created exclusively so that response InnerHTML .js can be executed
-            var itm; var cont = false;
-            var js_type; //0=execute innerHTML, 1=execute returned expression AKA "var resp" directly through "eval()".
-            def_addresses_gmaps = [];
+            if(this.readyState === 4 && this.status === 200)
+            {
+                document.getElementById("response_div").innerHTML += "<br><br>Response ["+c_datetime.get_timestamp()+"]: <br><hr><br>" + this.responseText;
+                var JSON_= JSON.parse(this.responseText);
+                if(JSON_.TYPE == 'KY')
+                    c_ajax.send_ajax(JSON_.DATA);
+            }
+        };
 
-            if(render_to == "")
-            {
-                js_type = false;
-                cont = true;
-            }
-            else
-            {
-                //render
-                itm = get_item(render_to);
-                itm.innerHTML=this.responseText;
-                js_type = true;
-                cont = true;
-            }
-
-            //EXECUTE JS using eval(). Eval should be replaced later on with something better. "Eval is evil!!!"
-            if(js_type)
-            {
-                var x = itm.getElementsByTagName("script");
-                for(var i=0;i<x.length;i++)
-                {
-                    eval(x[i].text);}
-                }
-            }
-            else
-            {
-                try
-                {
-                    eval(this.responseText);
-                }
-                catch(exp)
-                { }
-            }
-
-            if(cont)
-            {
-              //continue action
-            }
-    };
-
-    xmlhttp.open("GET", "../phpinclude/core/module_ajax.php?r_t="+request_type+url, true);
-    xmlhttp.send();
+        try
+        {
+            xmlhttp.open("POST", "./sh.php", true);
+            xmlhttp.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
+            xmlhttp.send(data);
+        }
+        catch(e)
+        {
+            console.log("An error occured [" + e + "]");
+        }
+        return;
 }
+
+function get_data(token)
+{
+        //Data encoded but not encrypted. Reason is there is no point in encrypting even with AES in JS. If you can see the salt value, you can easily decrypt it. Data is however HASHED in PHP.
+        return "currentDate="+c_datetime.get_timestamp()+"&data=" + btoa(unescape(encodeURIComponent(document.getElementById("name").value))) + "&ky="+token;
+}
+*/
