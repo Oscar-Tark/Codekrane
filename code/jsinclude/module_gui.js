@@ -11,13 +11,13 @@ var tabs = {
 
 var menus = 
 {
-	'1' : '<div><label class="label_mid">> Cybersecurity (Linux)</label><br><br><a href="https://www.codeproject.com/Articles/5165534/Basic-x86-64bit-Buffer-Overflows-in-Linux" target="_new">Basic x86-64bit Buffer Overflows in Linux</a><br><br><label class="label_mid">> Youtube</label><br><br><a href="https://www.youtube.com/watch?v=rodmoOuFYcc" target="_new">Installing Virtualbox & Ubuntu on windows 10</a></div>',
+	'1' : '<div><label class="label_mid">> Cybersecurity (Linux)</label><br><br><a href="https://www.codeproject.com/Articles/5165534/Basic-x86-64bit-Buffer-Overflows-in-Linux" target="_new">Basic x86-64bit Buffer Overflows in Linux</a><br><a href="https://www.codeproject.com/Articles/5222313/Basic-x86-32bit-formatted-string-exploits-in-linux" target="_new">Basic x86-32bit formatted string exploits in linux - Part 1</a><br><br><label class="label_mid">> Youtube</label><br><br><a href="https://www.youtube.com/watch?v=rodmoOuFYcc" target="_new">Installing Virtualbox & Ubuntu on windows 10</a></div>',
 	
 	'2' : '<div><label class="label_mid">> Portfolio</label><br><br><a href="javascript: scorpion(\'fnc.run(1)\');">Portfolio</a><br><br><label class="label_mid">> Links</label><br><br><a href="https://www.linkedin.com/in/oscartk/" target="_new">Linkedin</a><br><a href="https://github.com/Oscar-Tark" target="_new">Github</a><br><a href="https://bitbucket.org/%7B2a290b41-1933-4604-8eba-a92f90e6fbda%7D/" target="_new">Atlassian bitbucket</a></div>',
 	
 	'3' : '<div><label class="label_mid">> Contact</label><br><br><a href="javascript: scorpion(\'fnc.run(2)\');">Email form</a><br><br><label class="label_mid">> Addresses</label><br><br><a href="mailto: oscar@codekrane.com">oscar@codekrane.com</a></div>',
 	
-	'4' : '<div><label class="label_mid">> C sample programs for cybersecurity (Linux)</label><br><br><a href="javascript: ">simple HTTP server</a><br><a href="javascript: ">Get environment variable</a><br><a href="javascript: ">Set environment variable</a><br><a href="javascript: ">Buffer overflowable program 64bit</a><br><a href="javascript: ">Buffer overflowable program with execle()</a><br><a href="javascript: ">Format string exploitable program 32bit</a><br><br><label class="label_mid">> PHP</label><br><br><a href="mailto: oscar@codekrane.com">oscar@codekrane.com</a><br><br><label class="label_mid">> C#</label><br><br><a href="mailto: oscar@codekrane.com">oscar@codekrane.com</a></div>',
+	'4' : '<div><label class="label_mid">> C sample programs for cybersecurity (Linux)</label><br><br><a href="./code.php?f=vuln.c" target="_new">simple HTTP server</a><br><a href="javascript: ">Get environment variable</a><br><a href="javascript: ">Set environment variable</a><br><a href="javascript: ">Buffer overflowable program 64bit</a><br><a href="javascript: ">Buffer overflowable program with execle()</a><br><a href="javascript: ">Format string exploitable program 32bit</a><br><br><label class="label_mid">> PHP</label><br><br><a href="mailto:">--</a><br><br><label class="label_mid">> C#</label><br><br><a href="mailto:">--</a></div>',
 }
 
 var tabbed_buttons = 0;

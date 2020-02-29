@@ -65,6 +65,13 @@ var functions = {
             html.header("Contact", command);
             executables.console_write_html(html.contact);
         }
+        else if(command == "fnc.run(5)")
+        {
+			//show sample code
+            executables.console_write_back();
+            html.header("Sample code", command)
+			
+		}
         else if(command == "fnc.nuclearexplosion(*'mykitchen', *'5G', *true, *false)")
         {
             executables.console_write_text('');

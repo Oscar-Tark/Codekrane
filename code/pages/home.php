@@ -13,7 +13,7 @@ start();
 $_SESSION['COOKIENOTICE'] = true;
 
 $page_modifier = new page_modifier();
-$page_modifier->create_title("Codekrane");
+$page_modifier->create_title("Codekrane - Still in construction");
 
 draw_html("../htmlinclude/mainframe.html");
 draw_html_inside("../htmlinclude/home_menuframe.html", "mainframe");
