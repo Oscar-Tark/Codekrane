@@ -292,6 +292,13 @@ selectsel #clean_type option[value="Home cleaning"]   { background-image:url("..
 .static_content:hover
 {
 	border-left: 2px solid orange;
+	background-color: rgb(10,10,10);
+}
+
+.static_content:active
+{
+	border-left: 2px solid green;
+	background-color: rgb(5,5,5);
 }
 
 .label_highlighted
@@ -1051,7 +1058,6 @@ selectsel #clean_type option[value="Home cleaning"]   { background-image:url("..
 {
 	right: 5px;
 	height: 45px;
-	width: 380px;
 	float: right;
 }
 
